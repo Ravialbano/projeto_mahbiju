@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bem-vindo a loja de bijuterias</title>
+    
+    <style>
+        @font-face {
+            src: url(/fonts/newyork/NewYork\ PERSONAL\ USE.otf);
+            font-family: 'new york';
+
+           
+            
+        }
+
+        header{
+            background-color: #999B85;
+            position: absolute;
+            top: 0;
+            width: 100%;
+            text-align: center;
+   
+            border-radius: 0 0 20px 20px;
+        }
+        header h2{
+            color: #f4EFEC;
+            text-align: center;
+            font-family: 'new york';
+            font-weight: lighter;
+            font-size: 30px ;
+            
+        }
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            height: 100vh;
+            display: flex;
+            background-color: #f4EFEC;
+            background-image: url(img/flores.png) ;
+            background-size: cover;
+            background-position: center;
+            font-weight: 400;
+            align-items: center;
+            justify-content: center;
+            margin: 0;
+        }
+        .container{
+            background-color: #F0D9D1;
+            text-align: center;
+            width: 800px;
+            height: 600px;
+            top: 212;
+            border-radius: 49px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 0;
+        }
+        #folha_1{
+            position: absolute;
+            top: 88.24px;
+            left: 425.93px;
+            color: #999B85;
+        }
+        #folha_2{
+            position: absolute;
+            top: 662px;
+            left: 1208px;
+            color: #999B85;
+        }
+        .container .login_btn{
+            height: 82px;
+            width: 369px;
+            background-color: #DDB7AC;
+            cursor: pointer;
+            border-style: none;
+            border-radius: 123px;
+            font-family: 'new york';
+        }
+        .group_3 h1{
+            width: 
+            462px;
+            height: 
+            61px;
+            line-height: 
+            60.95px;
+            font-weight: 400;
+        } 
+
+        
+        .login_btn:hover{
+            background-color: #c58776;
+            
+
+        }
+        .container .login_btn a{
+            font-size: 30px;
+            text-decoration: none;
+            color: #F4EFEC;
+            
+        }
+        .title_subtitle{
+            color: #999B85;
+            font-family: 'new york ';
+        }
+        .cadastro{
+            font-family: 'new york';
+            color: #999B85;
+        }
+        .cadastro a {
+            text-decoration: none;
+            color: #999B85;
+        }.cadastro a:hover{
+            color: #80816d;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h2>mahbiju</h2>
+    </header>
+    <div class="container">
+        <img id="folha_1" src="img/Group 6.png" alt="folha">
+        <img id="folha_2" src="img/Group 5.png" alt="folha">
+            <div class="group_3">
+                <div class="title_subtitle">
+                    <h1 style="font-size: 50px;">Bem vindo a mahbiju</h1>
+                    <p style="font-size: 25px; height: 38px; line-height: 37.5px;">Escolha uma opção abaixo:</p>
+                </div> 
+                    <button class="login_btn"><a href="http://localhost/bijuteria_db/login.php">Login</a></button>
+                    <div class="cadastro">
+                        <h2>Ainda não tem cadastro?</h2>
+                        <a href="http://localhost/bijuteria_db/cadastrar_usuario.php">cadastre-se</a>
+                    </div>
+            </div>
+    </div>
+
+</body>
+</html>
